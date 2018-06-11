@@ -12,7 +12,7 @@ Read this in other languages: [English](./README.en.md), [日本語](./README.md
 - [概要](#概要)
 - [全体構成](#全体構成)
 - [各部説明](#各部説明)
-- [DSL4GC](#dsl4gc)
+    - [DSL4GC](#dsl4gc)
     - [GcScanner](#gcscanner)
     - [S/W emulator](#sw)
     - [H/W emulator](#hw)
