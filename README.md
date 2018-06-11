@@ -19,10 +19,10 @@ Read this in other languages: [English](./README.en.md), [日本語](./README.md
  - [利用方法](#利用方法)
 
 # 概要
-[![Game Controllerizer PV](./doc/video_link.png)](https://www.youtube.com/watch?v=WvQMhYef6eo)
+[![Game Controllerizer PV](./img/video_link.png)](https://www.youtube.com/watch?v=WvQMhYef6eo)
 
 # 構成図
-<img src="./doc/block_diagram.png" width="480px">
+<img src="./img/block_diagram.png" width="480px">
 
 # 各部説明
 
