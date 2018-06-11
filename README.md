@@ -1,4 +1,4 @@
-# game_controllerizer
+# GameControllerizer
 
 GameControllerizerはディジタルゲーム拡張のためのミドルウェアです．多様な機器および情報源を既存ゲームへの入力として扱えるようにすることで，新たなエンタテインメントの創出やゲーミフィケーション
 の構成のための試行錯誤を容易に行うことを可能にします．
@@ -45,7 +45,7 @@ GameControllerizerは，様々な既存ディジタルゲームプラットフ�
 - PC(Keyboard)
 
 <a id = "hw"></a>
-## H/W_emulator
+## H/W emulator
 
 各ゲームプラットフォームに対する入力を電子的に模擬するH/Wです．  
 対応予定プラットフォームは以下です．
@@ -59,4 +59,5 @@ GameControllerizerは，様々な既存ディジタルゲームプラットフ�
 
 # 利用方法
 
+キットの頒布と合わせて公開予定です．
 
