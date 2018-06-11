@@ -33,7 +33,7 @@ GameControllerizerは，様々な既存ディジタルゲームプラットフ�
 
 ## GcScanner
 
-一般的な USB Gamepad/Keyboard/Mouse の入力信号を DSL4GC 形式の JSON に変換するプログラムです．HTML+Javascript で書かれており，インストール不要＆ブラウザ上で動作します．詳しくは[こちら]()．
+一般的な USB Gamepad/Keyboard/Mouse の入力信号を DSL4GC 形式の JSON に変換するプログラムです．HTML+Javascript で書かれており，インストール不要＆ブラウザ上で動作します．詳しくは[こちら](https://github.com/nobu-e753/GcScannerJs)．
 
 <a id = "sw"></a>
 ## SW emulator
