@@ -40,7 +40,7 @@ GameControllerizer においては，ゲームの制御情報を DSL4GC 形式�
 <a id = "sw"></a>
 ## SW emulator
 
-各ゲームプラットフォームに対する入力を電子的に模擬するS/Wです．詳しくは[こちら]()．  
+各ゲームプラットフォームに対する入力を電子的に模擬するS/Wです．詳しくは[こちら](https://github.com/nobu-e753/GcSwEmulator)．  
 現時点での対応プラットフォームは以下です．
 
 - PC(Mouse)
