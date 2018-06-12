@@ -1,6 +1,6 @@
 # GameControllerizer
 
-GameControllerizerはディジタルゲーム拡張のためのミドルウェアです．多様な機器および情報源を既存ゲームへの入力として扱えるようにすることで，新たなエンタテインメントの創出やゲーミフィケーション
+GameControllerizer はディジタルゲーム拡張のためのミドルウェアです．多様な機器および情報源を既存ゲームへの入力として扱えるようにすることで，新たなエンタテインメントの創出やゲーミフィケーション
 の構成のための試行錯誤を容易に行うことを可能にします．
 
 ミドルウェアの開発は，[津田塾大学・栗原先生](http://www.unryu.org/home/gc)を中心におこなっています．
@@ -25,10 +25,10 @@ Read this in other languages: [English](./README.en.md), [日本語](./README.md
 <img src="./img/block_diagram.png" width="480px">
 
 # 各部説明
-GameControllerizer は，様々な既存ディジタルゲームプラットフォームへの入力をソフトェア（S/W）またはハードウェア（H/W）によりエミュレートするゲーム入力エミュレーション部，およびエンドユーザプログラマが多様な機器および情報源と通信しながら最終的にゲーム入力エミュレーショ ン部へと操作入力を送信する手順を記述するビジュアルプログラミング部からなります．後者は視覚的に手軽にプログラミングが行える [Node-RED](https://nodered.org/)を用いて実装されています．ディジタルゲームへの入力信号の時系列情報は，一次元の文字列として記述する可読性の高い簡易言語である DSL4GC（Domain Specific Language for Game Control）で記述されます．
+GameControllerizer は，様々な既存ディジタルゲームプラットフォームへの入力をソフトェア（S/W）またはハードウェア（H/W）によりエミュレートするゲーム入力エミュレーション部，およびエンドユーザプログラマが多様な機器および情報源と通信しながら最終的にゲーム入力エミュレーション部へと操作入力を送信する手順を記述するビジュアルプログラミング部からなります．後者は視覚的に手軽にプログラミングが行える [Node-RED](https://nodered.org/)を用いて実装されています．ディジタルゲームへの入力信号の時系列情報は，一次元の文字列として記述する可読性の高い簡易言語である DSL4GC（Domain Specific Language for Game Control）で記述されます．
 
 ## DSL4GC
-ディジタルゲームへの入力信号を抽象化し,簡便に表現するための固有言語（Domain Specific Language for Game Control）です．JSON形式で記述できます．言語仕様については[こちら](./dsl4gc/README.md)．
+ディジタルゲームへの入力信号を抽象化し,簡便に表現するための固有言語（Domain Specific Language for Game Control）です． JSON で記述できます．言語仕様については[こちら](./dsl4gc/README.md)．
 
 ## GcScanner
 一般的な USB Gamepad/Keyboard/Mouse の入力信号を DSL4GC 形式の JSON に変換するプログラムです．HTML+Javascript で書かれており，インストール不要＆ブラウザ上で動作します．詳しくは[こちら](https://github.com/nobu-e753/GcScannerJs)．
