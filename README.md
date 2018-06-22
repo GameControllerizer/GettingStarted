@@ -14,6 +14,7 @@ Read this in other languages: [English](./README.en.md), [日本語](./README.md
 - [各部説明](#各部説明)
     - [DSL4GC](#dsl4gc)
     - [GcScanner](#gcscanner)
+    - [Node-RED](#nr)
     - [S/W emulator](#sw)
     - [H/W emulator](#hw)
  - [利用方法](#利用方法)
@@ -33,6 +34,7 @@ GameControllerizer は，様々な既存ディジタルゲームプラットフ�
 ## GcScanner
 一般的な USB Gamepad/Keyboard/Mouse の入力信号を DSL4GC 形式の JSON に変換するプログラムです．HTML+Javascript で書かれており，インストール不要＆ブラウザ上で動作します．詳しくは[こちら](https://github.com/nobu-e753/GcScannerJs)．
 
+<a id = "nr"></a>
 ## Node-RED
 GameControllerizer においては，ゲームの制御情報を DSL4GC 形式で表現しています．これらを簡便に編集・再送出する環境として Node-RED および Node-RED 向けのカスタムノードを
 用意しています.詳しくは[こちら](https://github.com/nobu-e753/node-red-contrib-game_controllerizer).
