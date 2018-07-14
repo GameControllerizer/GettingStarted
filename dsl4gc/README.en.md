@@ -4,7 +4,7 @@ In [GameControllerizer](../README.md), game control information is expressed in 
 Appropriately changing this information and re-exporting it in Node-RED makes it possible to 
 map it to inputs for games. 
 
-## Example : StreetFighter2 "Hadouken (i.e. Fireball)"
+## Example : StreetFighter2 "Hadouken (a.k.a Fireball)"
 ```
 [
   {"dpad":[2], "btn":[], "ang":[0,0,0,0], "dur":2}
@@ -48,7 +48,7 @@ The btn array contains IDs of pressed buttons.
 
 ### ang : `Array[Int]`
 <!-- アナログスティックの倒しこみ状態を表現しています．インデックス順に [Axis0-h, Axis0-v, Axis1-h, Axis1-v]，値域は-128～127としています． -->
-The array contains analog stick states as integers 
+The ang array contains analog stick states as integers 
 ([Axis0-h, Axis0-v, Axis1-h, Axis1-v]，Range: -128..127).
 
 ### dur : `Int`
@@ -104,7 +104,7 @@ The btn array contains IDs of pressed buttons.
 The mov array contains relative mouse movements ([dX, dY]).
 
 ### dur : `Int`
-\* Same as Gamepad's
+Same as Gamepads's dur value.
 <!-- Gamepadの場合に同じです． -->
 
 ### Example
@@ -138,7 +138,7 @@ The mod array contains IDs of pressed modifier keys.
 - 2:Alt
 
 ### dur : `Int`
-\* same as Gamepads's
+Same as Gamepads's dur value.
 <!-- Gamepadの場合に同じです． -->
 
 <!-- 現実のkeyboardには上記以外にも多数のキーが存在します．しかしこれらを含めて統一的に扱う標準仕様は存在しておらず，OS，ロケーション，機器，入力を受け取るアプリケーション（例：ウェブブラウザ）によりまちまちです．  
