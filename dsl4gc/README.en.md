@@ -4,7 +4,7 @@ In [GameControllerizer](../README.md), game control information is expressed in 
 Appropriately changing this information and re-exporting it in Node-RED makes it possible to 
 map it to inputs to games. 
 
-## Example : StreetFighter2 "Hadouken"
+## Example : StreetFighter2 "Hadouken (i.e. Fireball)"
 ```
 [
   {"dpad":[2], "btn":[], "ang":[0,0,0,0], "dur":2}
