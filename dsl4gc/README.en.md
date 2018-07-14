@@ -1,8 +1,8 @@
 # DSL4GC（Domain Specific Language for Game Control）
 
-In [GameControllerizer](../README.md), game control information is expressed in the abstract format DSL4GC(Domain Specific Language for Game Control）. DSL4GC is expressed as JSON format, and is easy to read & edit.
+In [GameControllerizer](../README.md), game control information is expressed in an abstract format DSL4GC(Domain-specific Language for Game Control）. DSL4GC is expressed as JSON format, and is easy to read & edit.
 Appropriately changing this information and re-exporting it in Node-RED makes it possible to 
-map it to inputs to games. 
+map it to inputs for games. 
 
 ## Example : StreetFighter2 "Hadouken (i.e. Fireball)"
 ```
@@ -31,7 +31,7 @@ gc_keyboard_word = {“key”:Array[String], “mod”:Array[Int],  “dur”:In
 ## gc_gamepad_word (abstract Gamepad operation)
 `{“dpad”:Int, “btn”:Array[Int], ”ang“:Array[Int], “dur”:Int}`
 
-The abstruct Gamepad has,
+The abstract Gamepad has,
 
 - 1-dpad
 - n-buttons
@@ -39,12 +39,12 @@ The abstruct Gamepad has,
 
 ### dpad : `Int`
 <!-- 1～9の数値でゲームパッドの方向キー（十字キー）入力を表現します．方向と番号の対応は以下． -->
-The value represents a direction of the Dpad.
+The dpad value represents a direction of the Dpad.
 
 <img src="./img/dpad.png" width="160px">
 
 ### btn : `Array[Int]`
-The array contains IDs of pressed buttons.
+The btn array contains IDs of pressed buttons.
 
 ### ang : `Array[Int]`
 <!-- アナログスティックの倒しこみ状態を表現しています．インデックス順に [Axis0-h, Axis0-v, Axis1-h, Axis1-v]，値域は-128～127としています． -->
@@ -52,11 +52,11 @@ The array contains analog stick states as integers
 ([Axis0-h, Axis0-v, Axis1-h, Axis1-v]，Range: -128..127).
 
 ### dur : `Int`
-The operation for devices（dpad, btn, ang） is hold in n-frames (1frame = 16.666ms).
+The dur value represents a duration of holding each operation for devices （dpad, btn, ang） for n-frames (1frame = 16.666ms).
 <!-- 上記制御を適用する期間で，単位はframeとしました（1frame = 16.666msに相当）．値が表現する動作は以下です． -->
 
-- 0 - 127 :  The operation is hold in n-frames, then released.
-- 0 < : The operation is hold continuously until a next operation is entered.
+- 0 - 127 :  The operation is hold for n-frames, then released.
+- Smaller than 0  : The operation is hold continuously until a next operation is entered.
 
 ### Example
 Press Button-0 for 2-frames.
@@ -69,7 +69,7 @@ Hold down key of Dpad.
 {“dpad”:2, “btn”:[], “ang”:[0,0,0,0], “dur”:-1}
 ```
 
-### Hint
+### Tip
 These two codes represent the same operation, and there are replacable.
 
 #### Code-1
@@ -94,14 +94,14 @@ The abstract Mouse has,
 - 2-axes
 
 ### btn : `Array[Int]`
-The array contains IDs of pressed buttons.
+The btn array contains IDs of pressed buttons.
 - 0:Left button
 - 1:Right button
 - 2:Middle button
 
 ### mov : `Array[Int]`
 <!-- マウスの相対移動量を指し示します．インデックス順に．画面に対して左下を原点とします． -->
-The array contains relative mouse movements ([dX, dY]).
+The mov array contains relative mouse movements ([dX, dY]).
 
 ### dur : `Int`
 \* Same as Gamepad's
@@ -128,11 +128,11 @@ It is too hard to handle full keys because of the location.
 
 ### key : `Array[String]`
 <!-- Modifierkeyを除くキーの押し込み状態を文字列配列で表現します．同時に押されているキーがある場合，それぞれのキーに対応する文字列をすべて配列に格納するものとします（順不同． -->
-The array contains names of pressed keys (except Modifier keys).
+The key array contains names of pressed keys (except Modifier keys).
 
 ### mod : `Array[Int]`
 <!-- Modifierkeyの押し込み状態を表現します．Ctrl：０，Shift：1，Alt：2． -->
-The array contains IDs of pressed modifier keys.
+The mod array contains IDs of pressed modifier keys.
 - 0:Control
 - 1:Shift
 - 2:Alt
