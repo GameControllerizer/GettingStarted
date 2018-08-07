@@ -3,9 +3,12 @@
 GameControllerizer はディジタルゲーム拡張のためのミドルウェアです．多様な機器および情報源を既存ゲームへの入力として扱えるようにすることで，新たなエンタテインメントの創出やゲーミフィケーション
 の構成のための試行錯誤を容易に行うことを可能にします．
 
-ミドルウェアの開発は，[津田塾大学・栗原先生](http://www.unryu.org/home/gc)を中心におこなっています．
+ミドルウェアの開発は，[津田塾大学・栗原一貴](http://www.unryu.org/home/gc)を中心におこなっています．
 
 Read this in other languages: [English](./README.en.md), [日本語](./README.md)
+
+# 概要（デモ映像）
+[![Game Controllerizer PV](./img/video_link.png)](https://www.youtube.com/watch?v=WvQMhYef6eo)
 
 # 目次
 
@@ -18,9 +21,6 @@ Read this in other languages: [English](./README.en.md), [日本語](./README.md
     - [S/W emulator](#sw)
     - [H/W emulator](#hw)
  - [利用方法](#利用方法)
-
-# 概要
-[![Game Controllerizer PV](./img/video_link.png)](https://www.youtube.com/watch?v=WvQMhYef6eo)
 
 # 構成図
 <img src="./img/block_diagram.png" width="480px">
@@ -64,4 +64,3 @@ GameControllerizer においては，ゲームの制御情報を DSL4GC 形式�
 # 利用方法
 
 キットの頒布と合わせて公開予定です．
-
