@@ -3,7 +3,7 @@
 GameControllerizer はディジタルゲーム拡張のためのミドルウェアです．多様な機器および情報源を既存ゲームへの入力として扱えるようにすることで，新たなエンタテインメントの創出やゲーミフィケーション
 の構成のための試行錯誤を容易に行うことを可能にします．
 
-ミドルウェアの開発は，[津田塾大学・栗原一貴](http://www.unryu.org/home/gc)を中心におこなっています．
+ミドルウェアの開発は，[津田塾大学・栗原一貴](http://www.unryu.org/home/gc)先生を中心としたチームでおこなっています．
 
 Read this in other languages: [English](./README.en.md), [日本語](./README.md)
 
