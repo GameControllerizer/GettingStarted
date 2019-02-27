@@ -4,10 +4,10 @@ Game Controllerizer はディジタルゲーム拡張のためのミドルウェ
 
 ミドルウェアの開発は，[津田塾大学・栗原一貴](http://www.unryu.org/home/gc)先生を中心としたチームでおこなっています．詳しくは[論文](https://arxiv.org/abs/1810.01070)を参照ください
 
-# 応用例
+## 応用例
 <a href="https://www.youtube.com/watch?v=X0Q2rRmTBUM"><img src="./images/video_link.png" alt="Application of Game Controllerizer" width="480px"></a>
 
-# 構成概要
+## 構成概要
 Game Controllerizer は，様々な既存ディジタルゲームプラットフォームへの入力をソフトェア（S/W）またはハードウェア（H/W）によりエミュレートするゲーム入力エミュレーション部，およびエンドユーザプログラマが多様な機器および情報源と通信しながら最終的にゲーム入力エミュレーション部へと操作入力を送信する手順を記述するビジュアルプログラミング部からなります．  
 ビジュアルプログラミング部については
 - [Node-RED](https://nodered.org/) : エミュレータを RasPi や PC といった Linux 環境から制御するため
@@ -19,21 +19,21 @@ Game Controllerizer は，様々な既存ディジタルゲームプラットフ
 
 <img src="./images/overview.png" width="640px">
 
-# 各部説明
-## Node-RED
+## 各部説明
+### Node-RED
 エミュレータを RasPi や PC といった Linux 環境から制御する場合に利用可能です．ゲーム制御情報を Node-RED のカスタムノード，もしくは DSL4GC で記述・編集することができます．IoT / HTTP / WebSocket といった分野を得意にする方にお勧めします．詳しくは[こちら](https://github.com/GameControllerizer/node-red-contrib-game_controllerizer).
 
-## Makecode
+### Makecode
 エミュレータを micro:bit から制御する場合に利用可能です．ゲーム制御情報を Scratch スタイルのプログラミングブロック，もしくは Javascript で記述・編集することができます．マイコン / 電子工作といった分野を得意にする方にお勧めします．詳しくは[こちら](https://github.com/GameControllerizer/pxt-gamecontrollerizer).
 
-## S/W Emulator（更新停止中）
+### S/W Emulator（更新停止中）
 各ゲームプラットフォームに対する入力を電子的に模擬するS/Wです．詳しくは[こちら](https://github.com/GameControllerizer/GcSwEmulator)．  
 現時点での対応プラットフォームは以下です．
 
 - PC(Mouse)
 - PC(Keyboard)
 
-## H/W Emulator
+### H/W Emulator
 各ゲームプラットフォームに対する入力を電子的に模擬するH/Wです．対象プラットフォームに接続すると，一般的なUSB互換ゲームパッドとして動作します．詳しくは[こちら](https://github.com/GameControllerizer/GcHwEmulator)．  
 対応予定プラットフォームは以下です．
 
@@ -42,8 +42,15 @@ Game Controllerizer は，様々な既存ディジタルゲームプラットフ
 - PC / Smartphone / Game console(Mouse) * _discontinued_
 - PC / Smartphone / Game console(Keyboard) * _discontinued_
 
-## DSL4GC
+### DSL4GC
 ディジタルゲームへの入力信号を抽象化し,簡便に表現するための固有言語（Domain Specific Language for Game Control）です． JSON で記述できます．言語仕様については[こちら](https://github.com/GameControllerizer/DSL4GC)．
 
-## GcScanner
+### GcScanner
 一般的な USB Gamepad / Mouse / Keyboard の入力信号を DSL4GC 形式の JSON に変換するプログラムです．HTML+Javascript で書かれておりブラウザ上で動作します．詳しくは[こちら](https://github.com/GameControllerizer/GcScannerJs)．
+
+## 関連ソフトウェア（外部リンク）
+GameControllerizer を使っての開発を進める際に便利なソフトウェアの紹介です．
+
+- [Xbox 360 Controller Emulator](https://www.x360ce.com/)(Win) : GC-H/W Emulator や一般的なゲームパッドの入力を確認するのに適しています．
+- [JoyToKey](https://joytokey.net/ja/)(Win) : ジョイスティックの入力をキーボード/マウス入力へと変換します．
+- [Enjoyable](https://yukkurigames.com/enjoyable/)(Mac) : ジョイスティックの入力をキーボード/マウス入力へと変換します．
