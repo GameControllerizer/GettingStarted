@@ -34,7 +34,7 @@ Game Controllerizer は，様々な既存ディジタルゲームプラットフ
 - PC(Keyboard)
 
 ### H/W Emulator
-各ゲームプラットフォームに対する入力を電子的に模擬するH/Wです．対象プラットフォームに接続すると，一般的なUSB互換ゲームパッドとして動作します．詳しくは[こちら](https://github.com/GameControllerizer/GcHwEmulator)．  
+各ゲームプラットフォームに対する入力を電子的に模擬するH/Wです．対象プラットフォームに接続すると，USB HID互換ゲームパッドとして振舞います．詳しくは[こちら](https://github.com/GameControllerizer/GcHwEmulator)．  
 現時点での対応プラットフォームは以下です．
 
 - PC(Gamepad)
