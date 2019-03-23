@@ -7,8 +7,8 @@ Game Controllerizer はディジタルゲーム拡張のためのミドルウェ
 初めての方は [Starers site](https://sites.google.com/view/gamecontrollerizer) も併せて参照ください．
 
 ## 応用例
-<a href="https://www.youtube.com/watch?v=X0Q2rRmTBUM"><img src="./images/video_link.png" alt="Application of Game Controllerizer" width="480px"></a>
-※※津田塾大学栗原研究室の研究事例紹介
+<a href="https://www.youtube.com/watch?v=X0Q2rRmTBUM"><img src="./images/video_link.png" alt="Application of Game Controllerizer" width="480px"></a>  
+※津田塾大学栗原研究室の研究事例紹介
 
 ## 構成概要
 Game Controllerizer は，様々な既存ディジタルゲームプラットフォームへの入力をソフトェア（S/W）またはハードウェア（H/W）によりエミュレートするゲーム入力エミュレーション部，およびエンドユーザプログラマが多様な機器および情報源と通信しながら最終的にゲーム入力エミュレーション部へと操作入力を送信する手順を記述するビジュアルプログラミング部からなります．  
