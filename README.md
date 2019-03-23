@@ -4,6 +4,8 @@ Game Controllerizer はディジタルゲーム拡張のためのミドルウェ
 
 ミドルウェアの開発は，[津田塾大学・栗原一貴](http://www.unryu.org/home/gc)先生を中心としたチームでおこなっています．詳しくは[論文](https://arxiv.org/abs/1810.01070)を参照ください
 
+初めての方は [Starers site](https://sites.google.com/view/gamecontrollerizer) も併せて参照ください．
+
 ## 応用例
 <a href="https://www.youtube.com/watch?v=X0Q2rRmTBUM"><img src="./images/video_link.png" alt="Application of Game Controllerizer" width="480px"></a>
 
