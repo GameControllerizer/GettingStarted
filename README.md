@@ -1,10 +1,10 @@
 # Game Controllerizer : Developers site
 
-Game Controllerizer はディジタルゲーム拡張のためのミドルウェアです．多様な機器および情報源を既存ゲームへの入力として扱えるようにすることで，新たなエンタテインメントの創出やゲーミフィケーションの構成のための試行錯誤を容易に行うことを可能とし，もって当該分野の研究・教育活動推進に寄与することを目的としています．．
+Game Controllerizer はディジタルゲーム拡張のためのミドルウェアです．多様な機器および情報源を既存ゲームへの入力として扱えるようにすることで，新たなエンタテインメントの創出やゲーミフィケーションの構成のための試行錯誤を容易に行うことを可能とし，もって当該分野の研究・教育活動推進に寄与することを目的としています．
 
 ミドルウェアの開発は，[津田塾大学・栗原一貴](http://www.unryu.org/home/gc)先生を中心としたチームでおこなっています．詳しくは[論文](https://arxiv.org/abs/1810.01070)を参照ください
 
-初めての方は [Starers site](https://sites.google.com/view/gamecontrollerizer) も併せて参照ください．
+※初めての方は [Starers site](https://sites.google.com/view/gamecontrollerizer) も併せて参照ください．
 
 ## 応用例
 <a href="https://www.youtube.com/watch?v=X0Q2rRmTBUM"><img src="./images/video_link.png" alt="Application of Game Controllerizer" width="480px"></a>  
