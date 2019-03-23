@@ -52,5 +52,6 @@ Game Controllerizer は，様々な既存ディジタルゲームプラットフ
 GameControllerizer を使っての開発を進める際に便利なソフトウェアの紹介です．
 
 - [Xbox 360 Controller Emulator](https://www.x360ce.com/)(Win) : GC-H/W Emulator や一般的なゲームパッドの入力を確認するのに適しています．
+- [HTML5 Gamepad Tester](https://html5gamepad.com/)(Win/Mac/Linux) : 同じくGC-H/W Emulator や一般的なゲームパッドの入力を確認するのに適しています．Gamepad API の仕様のため十字キーが認識されなかったり，ブラウザより挙動が異なります． 
 - [JoyToKey](https://joytokey.net/ja/)(Win) : ジョイスティックの入力をキーボード/マウス入力へと変換します．
 - [Enjoyable](https://yukkurigames.com/enjoyable/)(Mac) : ジョイスティックの入力をキーボード/マウス入力へと変換します．
