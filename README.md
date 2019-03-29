@@ -51,6 +51,12 @@ Game Controllerizer は，様々な既存ディジタルゲームプラットフ
 ### GcScanner
 一般的な USB Gamepad / Mouse / Keyboard の入力信号を DSL4GC 形式の JSON に変換するプログラムです．HTML+Javascript で書かれておりブラウザ上で動作します．詳しくは[こちら](https://github.com/GameControllerizer/GcScannerJs)．
 
+## プログラミングインタフェース
+より柔軟な制御を行いたい場合，GUI（e.g. Makecode, Node-RED）に頼らないプログラミングインタフェースも利用することもできます．
+将来的には拡充する予定です（e.g. python Android, iOS）．
+- [GcOpsJs](https://github.com/GameControllerizer/GcOpsJs) : node.js むけ
+- [GcOpsObniz](https://github.com/GameControllerizer/GcOpsObniz) : obniz むけ
+
 ## 関連ソフトウェア（外部リンク）
 GameControllerizer を使っての開発を進める際に便利なソフトウェアの紹介です．
 
