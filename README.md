@@ -7,7 +7,7 @@ Game Controllerizer はディジタルゲーム拡張のためのミドルウェ
 また，初めての方は [Starers site](https://sites.google.com/view/gamecontrollerizer) も併せて参照ください．
 
 ## 応用例
-<a href="https://www.youtube.com/watch?v=X0Q2rRmTBUM"><img src="./images/video_link.png" alt="Application of Game Controllerizer" width="480px"></a>  
+<a href="https://youtu.be/Fn537wPVH6Q"><img src="./images/video_link.png" alt="Application of Game Controllerizer" width="480px"></a>  
 ※津田塾大学栗原研究室の研究事例紹介
 
 ## 構成概要
