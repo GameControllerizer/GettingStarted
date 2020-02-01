@@ -20,7 +20,7 @@ Game Controllerizer は，様々な既存ディジタルゲームプラットフ
 
 また，ディジタルゲームへの入力信号の時系列情報を一次元の文字列として記述する可読性の高い簡易言語である [DSL4GC](https://github.com/GameControllerizer/DSL4GC)（Domain Specific Language for Game Control）を用意しており，Node-RED環境で利用可能です．
 
-<img src="./images/overview.png" width="640px">
+<img src="./images/overview.png" width="720px">
 
 ## 各部説明
 ### Node-RED
@@ -29,7 +29,7 @@ Game Controllerizer は，様々な既存ディジタルゲームプラットフ
 ### Makecode
 エミュレータを micro:bit から制御する場合に利用可能です．ゲーム制御情報を Scratch スタイルのプログラミングブロック，もしくは Javascript で記述・編集することができます．マイコン / 電子工作といった分野を得意にする方にお勧めします．詳しくは[こちら](https://github.com/GameControllerizer/pxt-gamecontrollerizer).
 
-### S/W Emulator（更新停止中）
+### S/W Emulator（Deprecated）
 各ゲームプラットフォームに対する入力を電子的に模擬するS/Wです．詳しくは[こちら](https://github.com/GameControllerizer/GcSwEmulator)．  
 現時点での対応プラットフォームは以下です．
 
