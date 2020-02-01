@@ -20,7 +20,7 @@ Game Controllerizer は，様々な既存ディジタルゲームプラットフ
 
 また，ディジタルゲームへの入力信号の時系列情報を一次元の文字列として記述する可読性の高い簡易言語である [DSL4GC](https://github.com/GameControllerizer/DSL4GC)（Domain Specific Language for Game Control）を用意しており，Node-RED環境で利用可能です．
 
-<img src="./images/overview.png" width="720px">
+<img src="./images/overview.png" width="0px">
 
 ## 各部説明
 ### Node-RED
