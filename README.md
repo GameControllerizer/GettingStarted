@@ -43,8 +43,8 @@ Game Controllerizer は，様々な既存ディジタルゲームプラットフ
 
 - PC(Gamepad)
 - Game console(Gamepad) * _USB互換ゲームパッドを接続可能な機種に限る_
-- PC / Smartphone / Game console(Mouse) * _discontinued_
-- PC / Smartphone / Game console(Keyboard) * _discontinued_
+- ~~PC(Mouse) / Smartphone(Mouse) / Game console(Mouse)~~ * _discontinued_
+- ~~PC(Keyboard) / Smartphone(Keyboard) / Game console(Keyboard)~~ * _discontinued_
 
 ### DSL4GC
 ディジタルゲームへの入力信号を抽象化し,簡便に表現するための固有言語（Domain Specific Language for Game Control）です． JSON で記述できます．言語仕様については[こちら](https://github.com/GameControllerizer/DSL4GC)．
