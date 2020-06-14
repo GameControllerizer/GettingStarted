@@ -57,6 +57,7 @@ Game Controllerizer は，様々な既存ディジタルゲームプラットフ
 将来的には拡充する予定です（e.g. python Android, iOS）．
 - [GcOpsJs](https://github.com/GameControllerizer/GcOpsJs) : node.js むけ
 - [GcOpsObniz](https://github.com/GameControllerizer/GcOpsObniz) : obniz むけ
+- [GcOpsM5](https://github.com/GameControllerizer/GcOpsM5) : M5 stack むけ
 
 ## 関連ソフトウェア（外部リンク）
 GameControllerizer を使っての開発を進める際に便利なソフトウェアの紹介です．
