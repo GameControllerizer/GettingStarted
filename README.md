@@ -38,8 +38,7 @@ Game Controllerizer は，様々な既存ディジタルゲームプラットフ
 - PC(Keyboard)
 
 ### H/W Emulator
-各ゲームプラットフォームに対する入力を電子的に模擬するH/Wです．対象プラットフォームに接続すると，USB HID互換ゲームパッドとして振舞います．詳しくは[こちら](https://github.com/GameControllerizer/GcHwEmulator)．  
-現時点での対応プラットフォームは以下です．
+各ゲームプラットフォームに対する入力を電子的に模擬するH/Wです．対象プラットフォームに接続すると，USB HID互換ゲームパッド（DirectInput入力方式）として振舞います．詳しくは[こちら](https://github.com/GameControllerizer/GcHwEmulator)．現時点での対応プラットフォームは以下です．
 
 - PC(Gamepad)
 - Game console(Gamepad) * _USB互換ゲームパッドを接続可能な機種に限る_
@@ -65,7 +64,8 @@ GUI（e.g. Makecode, Node-RED）に頼らないプログラミングインタフ
 ## 関連ソフトウェア（外部リンク）
 GameControllerizer を使っての開発を進める際に便利なソフトウェアの紹介です．
 
-- [Xbox 360 Controller Emulator](https://www.x360ce.com/)(Win) : GC-H/W Emulator や一般的なゲームパッドの入力を確認するのに適しています．
-- [HTML5 Gamepad Tester](https://html5gamepad.com/)(Win/Mac/Linux) : 同じくGC-H/W Emulator や一般的なゲームパッドの入力を確認するのに適しています．Gamepad API の仕様のため十字キーが認識されなかったり，ブラウザより挙動が異なります． 
-- [JoyToKey](https://joytokey.net/ja/)(Win) : ジョイスティックの入力をキーボード/マウス入力へと変換します．
-- [Enjoyable](https://yukkurigames.com/enjoyable/)(Mac) : ジョイスティックの入力をキーボード/マウス入力へと変換します．
+- [HTML5 Gamepad Tester](https://greggman.github.io/html5-gamepad-test/)(Win/Mac/Linux) : G.C. H/W gamepad emulator や一般的なゲームパッドの入力を確認するのに適しています．Gamepad API の仕様のため十字キーが認識されなかったり，ブラウザより挙動が異なる場合があります．  
+- [Xbox 360 Controller Emulator](https://www.x360ce.com/)(Win) : G.C. H/W gamepad emulator が採用するDirectInput入力方式を，XInput入力方式に変換することができます（XInput入力方式のみをサポートしている市販ゲームなどを操作対象にする場合に適しています）．
+- [JoyToKey](https://joytokey.net/ja/)(Win) : G.C. H/W gamepad emulator が採用するDirectInput入力方式を，キーボード入力やマウス入力に変換することができます（キーボードやマウスのみをサポートしている市販ゲームなどを操作対象にする場合に適しています）．
+- [Enjoyable](https://yukkurigames.com/enjoyable/)(Mac) : JoyToKeyと同様の働きをするMac用ソフトウェアです．
+
