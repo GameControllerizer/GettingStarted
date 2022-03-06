@@ -24,10 +24,10 @@ Game Controllerizer は，様々な既存ディジタルゲームプラットフ
 <img src="./images/overview.png" width="800px">
 
 ## 各部説明
-### Node-RED
+### [Node-RED](https://github.com/GameControllerizer/node-red-contrib-game_controllerizer)
 エミュレータを RasPi や PC といった Linux 環境から制御する場合に利用可能です．ゲーム制御情報を Node-RED のカスタムノード，もしくは DSL4GC で記述・編集することができます．IoT / HTTP / WebSocket といった分野を得意にする方にお勧めします．詳しくは[こちら](https://github.com/GameControllerizer/node-red-contrib-game_controllerizer).
 
-### Makecode
+### [Makecode](https://github.com/GameControllerizer/pxt-gamecontrollerizer)
 エミュレータを micro:bit から制御する場合に利用可能です．ゲーム制御情報を Scratch スタイルのプログラミングブロック，もしくは Javascript で記述・編集することができます．マイコン / 電子工作といった分野を得意にする方にお勧めします．詳しくは[こちら](https://github.com/GameControllerizer/pxt-gamecontrollerizer).
 
 ### S/W Emulator（Deprecated）
@@ -37,7 +37,7 @@ Game Controllerizer は，様々な既存ディジタルゲームプラットフ
 - PC(Mouse)
 - PC(Keyboard)
 
-### H/W Emulator
+### [H/W Emulator](https://github.com/GameControllerizer/GcHwEmulator)
 各ゲームプラットフォームに対する入力を電子的に模擬するH/Wです．対象プラットフォームに接続すると，USB HID互換ゲームパッド（DirectInput入力方式）として振舞います．詳しくは[こちら](https://github.com/GameControllerizer/GcHwEmulator)．現時点での対応プラットフォームは以下です．
 
 - PC(Gamepad)
@@ -45,10 +45,10 @@ Game Controllerizer は，様々な既存ディジタルゲームプラットフ
 - ~~PC(Mouse) / Smartphone(Mouse) / Game console(Mouse)~~ * _discontinued_
 - ~~PC(Keyboard) / Smartphone(Keyboard) / Game console(Keyboard)~~ * _discontinued_
 
-### DSL4GC
+### [DSL4GC](https://github.com/GameControllerizer/DSL4GC)
 ディジタルゲームへの入力信号を抽象化し,簡便に表現するための固有言語（Domain Specific Language for Game Control）です． JSON で記述できます．言語仕様については[こちら](https://github.com/GameControllerizer/DSL4GC)．
 
-### GcScanner
+### [GcScanner](https://github.com/GameControllerizer/GcScannerJs)
 一般的な USB Gamepad / Mouse / Keyboard の入力信号を DSL4GC 形式の JSON に変換するプログラムです．HTML+Javascript で書かれておりブラウザ上で動作します．詳しくは[こちら](https://github.com/GameControllerizer/GcScannerJs)．
 
 ## プログラミングインタフェース
