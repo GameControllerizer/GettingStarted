@@ -30,14 +30,14 @@ Game Controllerizer は，様々な既存ディジタルゲームプラットフ
 ### [Makecode](https://github.com/GameControllerizer/pxt-gamecontrollerizer)
 エミュレータを micro:bit から制御する場合に利用可能です．ゲーム制御情報を Scratch スタイルのプログラミングブロック，もしくは Javascript で記述・編集することができます．マイコン / 電子工作といった分野を得意にする方にお勧めします．詳しくは[こちら](https://github.com/GameControllerizer/pxt-gamecontrollerizer).
 
-### S/W Emulator（Deprecated）
+### S/W emulator（Deprecated）
 各ゲームプラットフォームに対する入力を電子的に模擬するS/Wです．詳しくは[こちら](https://github.com/GameControllerizer/GcSwEmulator)．  
 現時点での対応プラットフォームは以下です．
 
 - PC(Mouse)
 - PC(Keyboard)
 
-### [H/W Emulator](https://github.com/GameControllerizer/GcHwEmulator)
+### [H/W emulator](https://github.com/GameControllerizer/GcHwEmulator)
 各ゲームプラットフォームに対する入力を電子的に模擬するH/Wです．対象プラットフォームに接続すると，USB HID互換ゲームパッド（DirectInput入力方式）として振舞います．詳しくは[こちら](https://github.com/GameControllerizer/GcHwEmulator)．現時点での対応プラットフォームは以下です．
 
 - PC(Gamepad)
