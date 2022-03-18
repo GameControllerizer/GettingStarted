@@ -69,3 +69,8 @@ GameControllerizer を使っての開発を進める際に便利なソフトウ�
 - [JoyToKey](https://joytokey.net/ja/)(Win) : G.C. H/W gamepad emulator が採用するDirectInput入力方式を，キーボード入力やマウス入力に変換することができます（キーボードやマウスのみをサポートしている市販ゲームなどを操作対象にする場合に適しています）．
 - [Enjoyable](https://yukkurigames.com/enjoyable/)(Mac) : JoyToKeyと同様の働きをするMac用ソフトウェアです．
 
+---
+
+## [GcByProduct](https://github.com/GameControllerizer/GcByProducts)
+
+GameControllerizerを開発・試用する過程で生まれた派生品です．詳しくは[こちら](https://github.com/GameControllerizer/GcByProducts)．
